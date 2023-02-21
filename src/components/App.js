@@ -3,11 +3,10 @@ import '../styles/App.css';
 const App = () => {
 
   const handleInput = (event) =>{
-   // use console.log
    console.log(event.target.value);
   }
 
-  // do not change id of input elements
+ 
   return (
     <div id="main">
       <label htmlFor='text-input'>Text Input:- </label>
